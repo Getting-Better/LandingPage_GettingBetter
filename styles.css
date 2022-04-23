@@ -1,0 +1,8 @@
+#footer{
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-size-adjust: 100%;
+    background: #2455A5;
+}
