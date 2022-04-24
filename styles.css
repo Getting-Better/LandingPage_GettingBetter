@@ -124,6 +124,7 @@ a:hover{
     }
 
 }
+
 /* MAIN*/
 
 #main{
@@ -280,12 +281,19 @@ a:hover{
 .main-preregister-button-border{
     
 }
+
 /* SERVICES */
 
 #services{
     padding-top: 30px;
     padding-bottom: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-size-adjust: 100%;
+    background: #2455A5;
 }
+
 .services-container{
     box-sizing: border-box;
     margin-top: 32px;
@@ -320,6 +328,7 @@ a:hover{
         grid-template-columns: repeat(1,minmax(0px, 90vw));
     }
 }
+
 /* ACERCA DE NOSOTROS */
 #aboutus{
     margin-top: 30px;
@@ -327,11 +336,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     text-size-adjust: 100%;
-    background: #2455A5;
 }
-
-
-
 
 .aboutus-title{
     color: #39f;
@@ -371,6 +376,7 @@ a:hover{
     }
 
 }
+/* FOOTER */
 #footer{
     margin-top: 40px;
     align-items: center;
