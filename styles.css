@@ -1,0 +1,156 @@
+/* MAIN*/
+
+#main{
+    position: relative;
+    text-align: center;
+}
+
+.main-background-image{
+    position:relative;
+    z-index: -1;
+}
+
+.main-preregister-position{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+.main-preregister{
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    display:flex;
+    top: 0;
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+    line-height: 28.4px;
+    font-size: 16px;
+}
+
+.main-preregister-h1{
+    padding-bottom: 20px;
+    font-size: 50px; 
+    color: white; 
+}
+.main-preregister-h2{
+    padding-bottom: 20px;
+    font-size: 30px; 
+    color: white;
+}
+
+
+@media(max-width: 1300px){
+    .main-preregister-h1{
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+
+    .main-preregister-h2{
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+}
+
+@media(max-width: 1000px){
+    .main-preregister-h1{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .main-preregister-h2{
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 790px){
+    .main-preregister-h1{
+        font-size: 22px;
+        padding-bottom: 0px;
+    }
+
+    .main-preregister-h2{
+        font-size: 18px;
+        padding-bottom: 0px;
+    }
+}
+
+
+@media(max-width: 450px){
+
+
+    .main-preregister-button{
+        position: relative;
+        top: 50px;
+        right: 150px;
+        margin-left: 0px;
+        width: 250px;
+        display: block;
+    }
+
+    .main-preregister-input{
+        position: relative;
+        left: 200px;
+        
+        display: block;
+    }
+
+    .main-preregister{
+        display: block;
+    }
+
+    
+    .main-preregister-form{
+        min-width: 0;
+        display: block;
+    }
+}
+
+.main-preregister-form{
+    margin-top: 10px;
+    border-radius: 5px;
+    text-size-adjust: 100%;
+    padding: 8px;
+    background-color: #16233fa3;
+    display: flex;
+    backdrop-filter: blur(5px);
+    min-width: 360px;
+}
+
+.main-preregister-input{
+    color: white;
+    background: transparent;
+    border: none;
+    display: inline-block;
+    outline: none;
+    height: 100%;
+    align-self: center;
+}
+
+.main-preregister-button{
+    display: block;
+    text-size-adjust: 100%;
+    background-color: #2455A5;
+    margin: -8px;
+    margin-left: 100px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor:pointer
+}
+
+.main-preregister-button-text{
+    color: white;
+    font-weight: bold;
+}
+
+.main-preregister-input::placeholder{
+    color: white;
+}
+
+.main-preregister-button-border{
+    
+}
