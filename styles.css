@@ -280,3 +280,49 @@ a:hover{
 .main-preregister-button-border{
     
 }
+/* SERVICES */
+
+#services{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-size-adjust: 100%;
+    background: #2455A5;
+}
+
+.services-container{
+    box-sizing: border-box;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 16px;
+}
+
+.services-container-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient(to top left, #39f, #76ddff);
+    padding: 16px;
+}
+.services-container-item:hover{
+    background:white;
+    color: #39f;
+    transition: 0.3f;
+}
+@media(max-width: 1300px){
+    .services-container{
+        grid-template-columns: repeat(2,minmax(0px, 45vw));
+    }
+}
+
+@media(max-width: 675px){
+    .services-container{
+        grid-template-columns: repeat(1,minmax(0px, 90vw));
+    }
+}
