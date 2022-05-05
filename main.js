@@ -1,3 +1,19 @@
+/*change language*/
+var check=document.querySelector(".check1");
+check.addEventListener('click',language)
+
+function language(){
+    let id=check.checked;
+    if(id==true)
+        location.href="es/index.html";
+    else
+        location.href="../index.html";
+    
+}
+
+/*.-------------*/
+
+
 const button1 =document.getElementById('main1');
 
 button1.addEventListener('click',function handleClick(){
