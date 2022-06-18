@@ -318,9 +318,7 @@ a:hover{
     color: white;
 }
 
-.main-preregister-button-border{
-    
-}
+
 
 /* SERVICES */
 
@@ -416,6 +414,50 @@ a:hover{
     }
 
 }
+/* About The Team */
+#about-the-product{
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-size-adjust: 100%;
+}
+
+.about-the-product-title{
+    color: #39f;
+    font-size: 32px;
+}
+
+
+.about-the-product-container{
+    box-sizing: border-box;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 615px;
+    gap: 16px;
+}
+
+
+.about-the-product-container-item-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    background: #2455A5;
+    padding: 16px;
+}
+
+.about-the-product-container-item-right{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #39f;
+    padding: 16px;
+}
+
+
 /* FOOTER */
 #footer{
     margin-top: 40px;
