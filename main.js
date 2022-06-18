@@ -37,3 +37,9 @@ const button4 =document.getElementById('main4');
 button4.addEventListener('click',function handleClick(){
     document.getElementById('check').checked=false;
 });
+
+const button5 =document.getElementById('main5');
+
+button5.addEventListener('click',function handleClick(){
+    document.getElementById('check').checked=false;
+});
