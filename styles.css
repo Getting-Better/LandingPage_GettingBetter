@@ -285,7 +285,7 @@ a:hover{
     border-radius: 5px;
     text-size-adjust: 100%;
     padding: 8px;
-    background-color: #16233fa3;
+    background-color: black;
     display: flex;
     backdrop-filter: blur(5px);
     min-width: 360px;
